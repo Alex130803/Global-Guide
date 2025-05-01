@@ -723,6 +723,12 @@ ul li div .learn-more{
         gap: 40px;
     }
 
+    .logo_contact {
+        width: 240px;
+        text-align: center;
+        margin-left: 27%;
+    }
+
     }
 
 
