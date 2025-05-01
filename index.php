@@ -143,63 +143,65 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
     <div class="fleet-block">
       <h3>Land Fleet</h3>
       <ul>
-        <li>
-          <img src="media/audi.jpeg" alt="Audi Q3">
-          <div>
-            <span><i class="fa-solid fa-car"></i> Audi Q3 – 5 seats</span>
-            <a href="#" class="learn-more">Learn More</a>
-          </div>
-        </li>
-        <li>
-          <img src="media/mercedesVclass.jpg" alt="V-Class">
-          <div>
-            <span><i class="fa-solid fa-car-side"></i> Mercedes V-Class – 7 seats</span>
-            <a href="#" class="learn-more">Learn More</a>
-          </div>
-        </li>
-        <li>
-          <img src="media/quad.jpg" alt="Quad">
-          <div>
-            <span><i class="fa-solid fa-motorcycle"></i> Quad 4x4 – 2 seats</span>
-            <a href="#tours" class="learn-more">Learn More</a>
-          </div>
-        </li>
-      </ul>
+  <li class="from-left">
+    <img src="media/audi.jpg" alt="Audi Q3">
+    <div>
+      <span><i class="fa-solid fa-car"></i> Audi Q3 – 5 seats</span>
+      <a href="land-tours.html" class="learn-more">Learn More</a>
+    </div>
+  </li>
+  <li class="from-right">
+    <img src="media/mercedesVclass.jpg" alt="V-Class">
+    <div>
+      <span><i class="fa-solid fa-car-side"></i> Mercedes V-Class – 7 seats</span>
+      <a href="land-tours.html" class="learn-more">Learn More</a>
+    </div>
+  </li>
+  <li class="from-left">
+    <img src="media/quad.jpg" alt="Quad">
+    <div>
+      <span><i class="fa-solid fa-motorcycle"></i> Quad 4x4 – 2 seats</span>
+      <a href="land-tours.html" class="learn-more">Learn More</a>
+    </div>
+  </li>
+</ul>
+
     </div>
 
     <!-- Sea Fleet -->
     <div class="fleet-block">
       <h3>Sea Fleet</h3>
       <ul>
-        <li>
-          <img src="media/yacht.jpeg" alt="Yacht">
-          <div>
-            <span><i class="fa-solid fa-ship"></i> Luxury Yacht – 12 guests</span>
-            <a href="#" class="learn-more">Learn More</a>
-          </div>
-        </li>
-        <li>
-          <img src="media/boat2.jpeg" alt="Speedboat">
-          <div>
-            <span><i class="fa-solid fa-water"></i> Speedboat – 6 guests</span>
-            <a href="#" class="learn-more">Learn More</a>
-          </div>
-        </li>
-        <li>
-          <img src="media/kayak2.jpeg" alt="Kayak">
-          <div>
-            <span><i class="fa-solid fa-person-swimming"></i> Kayaks – 1–2 guests</span>
-            <a href="#" class="learn-more">Learn More</a>
-          </div>
-        </li>
-        <li>
-          <img src="media/jetski12.jpeg" alt="Jet Ski">
-          <div>
-            <span><i class="fa-solid fa-water"></i> Jet Ski – 2 guests</span>
-            <a href="#" class="learn-more">Learn More</a>
-          </div>
-        </li>
-      </ul>
+  <li class="from-left">
+    <img src="media/yacht.jpeg" alt="Yacht">
+    <div>
+      <span><i class="fa-solid fa-ship"></i> Luxury Yacht – 12 guests</span>
+      <a href="tours/yacht.php" class="learn-more">Learn More</a>
+    </div>
+  </li>
+  <li class="from-right">
+    <img src="media/boat2.jpeg" alt="Speedboat">
+    <div>
+      <span><i class="fa-solid fa-water"></i> Speedboat – 5/12 guests</span>
+      <a href="speedboat.html" class="learn-more">Learn More</a>
+    </div>
+  </li>
+  <li class="from-left">
+    <img src="media/kayak2.jpeg" alt="Kayak">
+    <div>
+      <span><i class="fa-solid fa-person-swimming"></i> Kayaks – 1–2 guests</span>
+      <a href="tours/kayak.php" class="learn-more">Learn More</a>
+    </div>
+  </li>
+  <li class="from-right">
+    <img src="media/jetski12.jpeg" alt="Jet Ski">
+    <div>
+      <span><i class="fa-solid fa-water"></i> Jet Ski – 2 guests</span>
+      <a href="tours/jetski.php" class="learn-more">Learn More</a>
+    </div>
+  </li>
+</ul>
+
     </div>
 
   </div>
@@ -261,15 +263,15 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
         <div class="footer-section social-section">
             <h4>Follow Us</h4>
             <div class="social-icons">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/globalguidee/#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@globalguidee"><i class="fab fa-tiktok"></i></a>
+                
             </div>
         </div>
     </div>
 
     <div class="footer-bottom">
-        &copy; 2025 Global Guide. All rights reserved.
+        &copy; 2025 Global Guide. All rights reserved. | Powered by <a href="https://avision360.com" target="_blank">Avision360</a>
     </div>
 </footer>
 

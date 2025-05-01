@@ -55,3 +55,113 @@ window.addEventListener('click', function (e) {
     modal.style.display = 'none';
   }
 });
+
+
+
+
+
+//ANIMACIJE ZA TEKSTOVE
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector(".booking-form");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      } else {
+        entry.target.classList.remove("visible"); // ako želiš da se efekt ponavlja
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  if (form) observer.observe(form);
+});
+
+
+
+
+
+
+
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    const bookingInfo = document.querySelector(".booking-info");
+
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          } else {
+            entry.target.classList.remove("visible");
+          }
+          
+        });
+      },
+      {
+        threshold: 0.3
+      }
+    );
+
+    if (bookingInfo) observer.observe(bookingInfo);
+  });
+
+
+
+
+
+ 
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".tour-card");
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        } else {
+          entry.target.classList.remove("visible");
+        }
+        
+      });
+    }, {
+      threshold: 0.4
+    });
+
+    cards.forEach(card => observer.observe(card));
+  });
+
+
+
+
+
+
+ 
+  document.addEventListener("DOMContentLoaded", function () {
+    const fleetItems = document.querySelectorAll(".fleet-block li");
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        } else {
+          entry.target.classList.remove("visible");
+        }
+        
+      });
+    }, {
+      threshold: 0.7
+    });
+
+    fleetItems.forEach(item => observer.observe(item));
+  });
+
