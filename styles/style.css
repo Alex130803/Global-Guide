@@ -7,6 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
     padding-top: 80px;
+    
 }
 
 /*-----------------------------------WHATSAPP FLOAT BUTTON----------------------------------------*/
@@ -711,8 +712,28 @@ ul li div .learn-more{
 
 
 
+  @media (max-width: 768px) {
+    .booking-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 40px;
+    }
 
 
 
+    .explore-split {
+        display: flex;
+        flex-direction: column !important ;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    }
 
+
+  
 
