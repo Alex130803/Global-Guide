@@ -723,15 +723,6 @@ ul li div .learn-more{
         gap: 40px;
     }
 
-
-
-    .explore-split {
-        display: flex;
-        flex-direction: column !important ;
-        height: 100vh;
-        width: 100%;
-        
-    }
     }
 
 

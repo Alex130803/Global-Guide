@@ -88,3 +88,17 @@ body, html {
     background-color: rgba(10, 34, 57, 1);
   }
 
+
+
+
+  @media (max-width: 720px) {
+    
+
+    .explore-split {
+        display: flex
+    ;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    }
