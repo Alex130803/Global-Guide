@@ -1,0 +1,718 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    padding-top: 80px;
+}
+
+/*-----------------------------------WHATSAPP FLOAT BUTTON----------------------------------------*/
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    font-weight: 600;
+    padding: 12px 18px;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    z-index: 999;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.whatsapp-float i {
+    font-size: 22px;
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.05);
+}
+
+
+/*----------------------------------NAVBAR----------------------------------------*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0a2239; /* tamna morska */
+    padding: 10px 0px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.nav-el {
+    display: flex;
+    gap: 30px;
+    padding-right: 34px;
+}
+
+.nav-el li{
+    list-style: none;
+}
+
+.nav-el li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-el li a:hover {
+    color: #00b2a9; /* morski highlight */
+}
+
+.logo {
+    width: 140px;
+}
+
+
+/*-----------------------------------LANDING PAGE----------------------------------------*/
+.landing-page {
+    background-image: url('../media/boat.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 88vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 1s ease-in-out;
+}
+
+.landing-page::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.landing-page-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.landing-page-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.landing-page-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    background-color: #007f80;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-btn:hover {
+    background-color: #00b2a9;
+    transform: translateY(-2px);
+}
+
+/*-----------------------------------BOOKING SECTION----------------------------------------*/
+.booking-section {
+    padding: 60px 20px;
+
+    background: linear-gradient(to bottom right, #f0f8ff, #e2f1f9);
+}
+
+.booking-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+/* Booking Form kao kartica */
+.booking-form {
+    flex: 1 1 55%;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 34px 12px 12px 12px;
+    border-top: 6px solid #0a2239;
+    border-left: 3px solid #0a2239;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.booking-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    color: #0a2239;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form label {
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.booking-form input,
+.booking-form select{
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 2px solid #0a2239;
+    border-radius: 0;
+    font-size: 0.95rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 6px;
+    background-color: #fdfdfd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.booking-form textarea{
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 2px solid #0a2239;
+    border-left: 2px solid #0a2239;
+    border-radius: 0;
+    font-size: 0.95rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 6px;
+    background-color: #fdfdfd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    border-bottom: 2px solid #00b2a9;
+    outline: none;
+    box-shadow: 0 2px 0 0 rgba(0, 178, 169, 0.2);
+}
+
+.booking-form textarea {
+    resize: vertical;
+    min-height: 80px;
+    border-radius: 10px;
+}
+
+.booking-form .cta-btn {
+    margin-top: 16px;
+    padding: 10px 24px;
+    font-size: 0.95rem;
+    background-color: #007f80;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.booking-form .cta-btn:hover {
+    background-color: #00b2a9;
+    transform: translateY(-2px);
+}
+
+/* Kontakt info - čist tekst bez backgrounda */
+.booking-info {
+    flex: 1 1 40%;
+    padding: 10px;
+    
+}
+
+.booking-info h2 {
+    margin-bottom: 24px;
+    color: #0a2239;
+}
+
+.booking-info p {
+    margin-bottom: 12px;
+    color: #333;
+    font-size: 1rem;
+}
+
+.logo_contact {
+    width: 240px;
+}
+
+/* Sakrivanje duration sekcije po defaultu */
+.hidden {
+    display: none;
+}
+
+
+/*------------------- TOURS DISPLAY SECTION -------------------*/
+
+#tours {
+    padding: 60px 20px;
+    background-color: #f0f6f9;
+    text-align: center;
+}
+
+#tours h2 {
+    color: #0a2239;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.tour-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tour-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.07);
+    max-width: 320px;
+    width: 100%;
+    text-align: left;
+    border-left: 4px solid #007f80;
+    transition: transform 0.2s ease;
+}
+
+.tour-card:hover {
+    transform: translateY(-4px);
+}
+
+.tour-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.tour-card h3 {
+    margin-top: 0;
+    color: #0a2239;
+}
+
+.tour-card p.truncate {
+    max-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.tour-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #007f80;
+}
+
+.tour-card span .discount {
+    color: red;
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+.tour-card .learn-more {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 14px;
+    background-color: #007f80;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+}
+
+.tour-card .learn-more:hover {
+    background-color: #00b2a9;
+}
+
+/*----------------------------------FLEET SECTION----------------------------------------*/
+#fleet-section {
+    background: linear-gradient(to bottom, #f0f8ff 0%, #ffffff 100%);
+    padding: 70px 20px;
+    text-align: center;
+}
+
+#fleet-section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 60px;
+    color: #0a2239;
+    font-weight: 700;
+}
+
+.fleet-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.fleet-block {
+    background: white;
+    border-radius: 20px;
+    padding: 30px 40px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.fleet-block h3 {
+    font-size: 1.8rem;
+    color: #007f80;
+    margin-bottom: 24px;
+    font-weight: 600;
+    border-left: 5px solid #00b2a9;
+    padding-left: 12px;
+}
+
+.fleet-block ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fleet-block ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f9f9f9;
+    padding: 12px 16px;
+    border-radius: 12px;
+    transition: 0.2s ease;
+}
+
+.fleet-block ul li:hover {
+    background-color: #eefdfc;
+}
+
+.fleet-block ul li img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.fleet-block ul li span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.05rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.fleet-block ul li i {
+    color: #00b2a9;
+    font-size: 1.2rem;
+}
+
+ul li div .learn-more{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 14px;
+    background-color: #007f80;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+}
+
+/*----------------------------------GUEST MOMENTS SECTION----------------------------------------*/
+#guest-moments {
+    padding: 70px 0;
+    background: #f9fbfd;
+    text-align: center;
+}
+
+#guest-moments h2 {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+    color: #0a2239;
+    font-weight: 700;
+}
+
+.moments-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.moments-track {
+    display: flex;
+    width: max-content;
+    animation: scrollLeft 50s linear infinite;
+}
+
+.moment {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.moment img,
+.moment video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Animation for infinite scroll */
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/*----------------------------------FOOTER----------------------------------------*/
+.footer {
+    background-color: #0a2239;
+    color: #f4f4f4;
+    padding: 50px 20px 20px 20px;
+    font-size: 0.95rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    gap: 40px;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+}
+
+.footer-section img {
+    width: 140px;
+    margin-bottom: 16px;
+}
+
+.footer-section h4 {
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    color: #00b2a9;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #00b2a9;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #f4f4f4;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00b2a9;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.moments-wrapper a{
+    display: inline-block;
+    margin-top: 22px;
+    padding: 8px 14px;
+    background-color: #007f80;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+}
+
+/*-----------------Modal Styles--------------------*/
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    justify-items: center;
+    align-items: center;
+    overflow-y: auto;
+    padding: 40px 20px;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .modal-body {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  
+  .modal-left, .modal-right {
+    flex: 1 1 50%;
+    min-width: 300px;
+  }
+  
+  .modal-left img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .modal-left p {
+    font-size: 1rem;
+    color: #333;
+    word-break: break-word;
+  }
+  
+  .modal-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal-right input, 
+  .modal-right button {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .modal-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal-right button {
+    background-color: #007f80;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .modal-right button:hover {
+    background-color: #00b2a9;
+  }
+  
+  /* Close (X) button */
+  .close {
+    color: #d71111;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+  }
+  .close:hover {
+    color: black;
+  }
+  
+
+
+
+
+
+
+
+
+
+

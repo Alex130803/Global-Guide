@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f8fa;
+  }
+  
+  .tour-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .tour-slider {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .slider-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slider-nav button {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .tour-info {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .tour-info h1 {
+    font-size: 2rem;
+    color: #0a2239;
+    margin-bottom: 10px;
+  }
+  
+  .tour-info .subtitle {
+    color: #007f80;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .specs {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .specs li {
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    margin-bottom: 30px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .cta-btn {
+    background-color: #007f80;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    width: fit-content;
+    transition: background 0.2s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #00b2a9;
+  }
+
+  .back-button {
+    margin-top: 30px;
+    align-self: end;
+}
+
+.back-button a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #007f80;
+    border: 2px solid #007f80;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.back-button a:hover {
+    background: #007f80;
+    color: white;
+}
+  
+/*--------------------REVIEWS-------------------------*/
+.reviews-section {
+  margin-top: 40px;
+}
+
+.reviews-section h2 {
+  font-size: 2rem;
+  color: #0a2239;
+  margin-bottom: 20px;
+}
+
+.reviews-wrapper {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.review-card {
+  flex: 0 0 45%; /* da budu dva vidljiva na desktopu */
+  scroll-snap-align: start;
+  background: #f7f7f7;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.review-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

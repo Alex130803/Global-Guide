@@ -1,0 +1,152 @@
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 10%;
+    gap: 40px;
+    background-color: #f8f9fa;
+  }
+  
+  .contact-form, .contact-info {
+    flex: 1 1 400px;
+  }
+  
+  .contact-form h2, .contact-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #00303f;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #007f80;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #00b2a9;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+    color: #007f80;
+  }
+  
+  .map-section {
+    width: 100%;
+    margin-top: -30px;
+  }
+
+  /*----------------------------------FOOTER----------------------------------------*/
+.footer {
+    background-color: #0a2239;
+    color: #f4f4f4;
+    padding: 50px 20px 20px 20px;
+    font-size: 0.95rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    gap: 40px;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+}
+
+.footer-section img {
+    width: 140px;
+    margin-bottom: 16px;
+}
+
+.footer-section h4 {
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    color: #00b2a9;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #00b2a9;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #f4f4f4;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00b2a9;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.moments-wrapper a{
+    display: inline-block;
+    margin-top: 22px;
+    padding: 8px 14px;
+    background-color: #007f80;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+}

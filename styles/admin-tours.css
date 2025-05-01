@@ -1,0 +1,55 @@
+
+/*------------------- ADMIN CMS STYLING -------------------*/
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+}
+
+h2, h3 {
+    color: #0a2239;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+form button {
+    background-color: #007f80;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #00b2a9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border-left: 4px solid #0a2239;
+}

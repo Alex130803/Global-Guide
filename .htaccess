@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin Area"
+AuthUserFile "C:/xampp/htdocs/Avision/sajtovi/Global_Guide/.htpasswd"
+Require valid-user
