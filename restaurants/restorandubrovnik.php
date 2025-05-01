@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Yacht Tour - Global Guide</title>
-  <link rel="stylesheet" href="../styles/sea-tour.css"/>
+  <title>Restaurant Dubrovnik - Global Guide</title>
+  <link rel="stylesheet" href="../styles/sea-tour.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -11,9 +11,12 @@
 <div class="tour-container">
   <!-- Left side: Image Slider -->
   <div class="tour-slider">
-    <img src="../media/yacht.jpeg" alt="Yacht 1" class="slide active">
-    <img src="../media/yacht2.jpeg" alt="Yacht 2" class="slide">
-    <img src="../media/yacht3.jpeg" alt="Yacht 3" class="slide">
+    <img src="../media/dubrovnikmain.jpg" alt="Dubrovnik 1" class="slide active">
+    <img src="../media/dubrovnik2.jpg" alt="Dubrovnik 2" class="slide">
+    <img src="../media/Dubrovnik3.jpg" alt="Dubrovnik 3" class="slide">
+    <img src="../media/Dubrovnik4.jpg" alt="Dubrovnik 3" class="slide">
+    <img src="../media/Dubrovnik5.jpg" alt="Dubrovnik 3" class="slide">
+    <img src="../media/Dubrovnik6.jpg" alt="Dubrovnik 3" class="slide">
     <div class="slider-nav">
       <button onclick="changeSlide(-1)">&#10094;</button>
       <button onclick="changeSlide(1)">&#10095;</button>
@@ -24,24 +27,28 @@
   <div class="tour-info">
     <!-- Back Button -->
     <div class="back-button">
-      <a href="../sea-tours.html">&larr; Back to Sea Tours</a>
+      <a href="../restaurant.html">&larr; Back to Restaurants</a>
     </div>
-    <h1>Luxury Yacht Tour</h1>
-    <p class="subtitle">Experience the Adriatic on a private luxury yacht.</p>
+    <h1>Restaurant Dubrovnik</h1>
+    <p class="subtitle">Experience a fine dining in the heart of the Old city</p>
 
     <ul class="specs">
-      <li><strong>Max Guests:</strong> 12</li>
-      <li><strong>Duration:</strong> 4/6/8 hours</li>
-      <li><strong>Includes:</strong> Captain, drinks, snacks, fuel</li>
-      <br>
-      <li><strong>Price:</strong> From 950€</li>
+      <li><strong>Serving:</strong> Curated by Chef Dalibor Vidović, modern interpretations of Mediterranean classics using fresh, local ingredients.​</li>
+      <li><strong>Average price per person:</strong> A la carte(50/75€) , Tasting menus(165/230€)</li>
+      <li><strong>Location:</strong> Marojice Kaboge 5, Dubrovnik</li>
+      <li><strong>Working hours:</strong> 17:00 - 23:00</li>
     </ul>
 
     <p class="description">
-      Enjoy an unforgettable day cruising the beautiful coast of Dubrovnik, with stops for swimming and relaxing at hidden coves.
+    Features a charming rooftop terrace with a retractable roof, providing an al fresco dining experience under the stars.
+
+Praised for its exceptional service and attention to detail, with the chef often personally engaging with guests.
+
+Recognized in the MICHELIN Guide for its quality cuisine and inviting atmosphere.
     </p>
 
-    <a href="../index.html#booking" class="cta-btn">Book Now</a>
+    <a href="../index.php#booking" class="cta-btn">Book Now</a>
+    <a href="../index.php#booking" class="cta-btn">Menu</a>
 
     <!-- Reviews Section -->
     <?php

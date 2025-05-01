@@ -27,17 +27,19 @@
     <div class="back-button">
       <a href="../sea-tours.html">&larr; Back to Sea Tours</a>
     </div>
-    <h1>Kayak Tour</h1>
-    <p class="subtitle">Experience the Adriatic sea with kayak</p>
+    <h1>Jet ski WaweRunner</h1>
+    <p class="subtitle">Experience the Adriatic sea on the Jet ski</p>
 
     <ul class="specs">
-      <li><strong>Max Guests:</strong> 12</li>
-      <li><strong>Duration:</strong> 4 or 8 hours</li>
-      <li><strong>Includes:</strong> Captain, drinks, snacks, fuel</li>
+      <li><strong>Max Guests per Jet ski:</strong> 2</li>
+      <li><strong>Duration:</strong> 20/30/60/120 min</li>
+      <li><strong>Includes:</strong> Life jacket,fuel</li>
+      <br>
+      <li><strong>Price:</strong> From 80€</li>
     </ul>
 
     <p class="description">
-      Enjoy an unforgettable day cruising the beautiful coast of Dubrovnik, with stops for swimming and relaxing at hidden coves.
+    Experience the thrill of the Adriatic with a jet ski adventure along Dubrovnik’s stunning coastline. Discover hidden beaches, feel the rush of the open sea, and make memories that will last a lifetime.
     </p>
 
     <a href="../index.html#booking" class="cta-btn">Book Now</a>

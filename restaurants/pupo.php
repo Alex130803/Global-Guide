@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Yacht Tour - Global Guide</title>
-  <link rel="stylesheet" href="../styles/sea-tour.css"/>
+  <title>Tavern Pupo - Global Guide</title>
+  <link rel="stylesheet" href="../styles/sea-tour.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -11,9 +11,12 @@
 <div class="tour-container">
   <!-- Left side: Image Slider -->
   <div class="tour-slider">
-    <img src="../media/yacht.jpeg" alt="Yacht 1" class="slide active">
-    <img src="../media/yacht2.jpeg" alt="Yacht 2" class="slide">
-    <img src="../media/yacht3.jpeg" alt="Yacht 3" class="slide">
+    <img src="../media/pupo.jpg" alt="Pupo 1" class="slide active">
+    <img src="../media/pupo2.jpg" alt="Pupo 2" class="slide">
+    <img src="../media/pupo3.jpg" alt="Pupo 3" class="slide">
+    <img src="../media/pupo4.jpg" alt="Pupo 4" class="slide">
+    <img src="../media/pupo5.jpg" alt="Pupo 5" class="slide">
+    <img src="../media/pupo6.jpg" alt="Pupo 6" class="slide">
     <div class="slider-nav">
       <button onclick="changeSlide(-1)">&#10094;</button>
       <button onclick="changeSlide(1)">&#10095;</button>
@@ -24,24 +27,24 @@
   <div class="tour-info">
     <!-- Back Button -->
     <div class="back-button">
-      <a href="../sea-tours.html">&larr; Back to Sea Tours</a>
+      <a href="../casual-dining.html">&larr; Back to the restaurants</a>
     </div>
-    <h1>Luxury Yacht Tour</h1>
-    <p class="subtitle">Experience the Adriatic on a private luxury yacht.</p>
+    <h1>Tavern Pupo</h1>
+    <p class="subtitle">Experience the authentic taste where tradition, flavor, and local charm come together in every dish.</p>
 
     <ul class="specs">
-      <li><strong>Max Guests:</strong> 12</li>
-      <li><strong>Duration:</strong> 4/6/8 hours</li>
-      <li><strong>Includes:</strong> Captain, drinks, snacks, fuel</li>
-      <br>
-      <li><strong>Price:</strong> From 950€</li>
+      <li><strong>Serving:</strong> Seafood, Meat, Deserts</li>
+      <li><strong>Average price per person:</strong> 25/50€</li>
+      <li><strong>Location:</strong> Ul. Miha Pracata 8, Dubrovnik</li>
+      <li><strong>Working hours:</strong> 8:00 – 23:00</li>
     </ul>
 
     <p class="description">
-      Enjoy an unforgettable day cruising the beautiful coast of Dubrovnik, with stops for swimming and relaxing at hidden coves.
+    Konoba Pupo is a family-run tavern located in the heart of Dubrovnik's Old Town, known for its traditional Dalmatian recipes and fresh, local ingredients. Since the 1990s, the family behind Pupo has blended old fishing recipes with quality produce sourced from the Dubrovnik region.
     </p>
 
-    <a href="../index.html#booking" class="cta-btn">Book Now</a>
+    <a href="../index.php#booking" class="cta-btn">Book Now</a>
+    <a href="../index.php#booking" class="cta-btn">Menu</a>
 
     <!-- Reviews Section -->
     <?php

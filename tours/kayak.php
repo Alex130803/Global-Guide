@@ -30,9 +30,11 @@
     <p class="subtitle">Experience the Adriatic sea with kayak</p>
 
     <ul class="specs">
-      <li><strong>Max Guests:</strong> 12</li>
+      <li><strong>Max Guests per kayak:</strong> 2</li>
       <li><strong>Duration:</strong> 4 or 8 hours</li>
-      <li><strong>Includes:</strong> Captain, drinks, snacks, fuel</li>
+      <li><strong>Includes:</strong> kayaking equipment, water bottle</li>
+      <br>
+      <li><strong>Price per person:</strong> 40€</li>
     </ul>
 
     <p class="description">

@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Yacht Tour - Global Guide</title>
-  <link rel="stylesheet" href="../styles/sea-tour.css"/>
+  <title>Kayak Tour - Global Guide</title>
+  <link rel="stylesheet" href="../styles/sea-tour.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -11,9 +11,12 @@
 <div class="tour-container">
   <!-- Left side: Image Slider -->
   <div class="tour-slider">
-    <img src="../media/yacht.jpeg" alt="Yacht 1" class="slide active">
-    <img src="../media/yacht2.jpeg" alt="Yacht 2" class="slide">
-    <img src="../media/yacht3.jpeg" alt="Yacht 3" class="slide">
+    <img src="../media/gliser.jpeg" alt="Raptor 1" class="slide active">
+    <img src="../media/gosti6.jpeg" alt="Raptor 2" class="slide">
+    <img src="../media/gosti7.jpeg" alt="Raptor 3" class="slide">
+    <img src="../media/gosti3.jpeg" alt="Raptor 4" class="slide">
+    <img src="../media/gosti2.jpeg" alt="Raptor 5" class="slide">
+    <img src="../media/gosti1.jpeg" alt="Raptor 6" class="slide">
     <div class="slider-nav">
       <button onclick="changeSlide(-1)">&#10094;</button>
       <button onclick="changeSlide(1)">&#10095;</button>
@@ -26,22 +29,22 @@
     <div class="back-button">
       <a href="../sea-tours.html">&larr; Back to Sea Tours</a>
     </div>
-    <h1>Luxury Yacht Tour</h1>
-    <p class="subtitle">Experience the Adriatic on a private luxury yacht.</p>
+    <h1>Alesta Raptor</h1>
+    <p class="subtitle">Experience the Adriatic sea with Raptor</p>
 
     <ul class="specs">
       <li><strong>Max Guests:</strong> 12</li>
-      <li><strong>Duration:</strong> 4/6/8 hours</li>
-      <li><strong>Includes:</strong> Captain, drinks, snacks, fuel</li>
+      <li><strong>Duration:</strong> 4 or 8 hours</li>
+      <li><strong>Includes:</strong> 2 crew members, fuel, towels, snorkeling equipment, drinks (water, cola, ice tea, white wine and beers) and free private transfer to the boat and back.</li>
       <br>
-      <li><strong>Price:</strong> From 950€</li>
+      <li><strong>Price:</strong> From 800€</li>
     </ul>
 
     <p class="description">
-      Enjoy an unforgettable day cruising the beautiful coast of Dubrovnik, with stops for swimming and relaxing at hidden coves.
+    Set sail on the powerful Alesta Raptor and explore the breathtaking Dubrovnik coastline in style. With spacious seating, smooth cruising, and stops at hidden bays for swimming and sunbathing, your perfect day at sea starts here.
     </p>
 
-    <a href="../index.html#booking" class="cta-btn">Book Now</a>
+    <a href="../index.php#booking" class="cta-btn">Book Now</a>
 
     <!-- Reviews Section -->
     <?php

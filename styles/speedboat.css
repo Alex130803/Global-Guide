@@ -1,0 +1,103 @@
+/*------------------------------ SPEEDBOAT SPLIT SCREEN CLEAN ------------------------------*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+}
+
+.explore-split {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.explore-option {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-option::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+    z-index: 0;
+}
+
+.left::before {
+    background-image: url('../media/Raptor_main.jpg');
+}
+
+.right::before {
+    background-image: url('../media/boat2.jpeg');
+}
+
+.explore-option:hover::before {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px 40px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.overlay h2 {
+    margin: 0;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+  .back-button a {
+    display: inline-block;
+    background-color: rgba(10, 34, 57, 0.8);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button a:hover {
+    background-color: rgba(10, 34, 57, 1);
+  }
+
+
+
+
+  @media (max-width: 720px) {
+    
+
+    .explore-split {
+        display: flex
+    ;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    }

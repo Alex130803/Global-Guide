@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Yacht Tour - Global Guide</title>
-  <link rel="stylesheet" href="../styles/sea-tour.css"/>
+  <title>Kayak Tour - Global Guide</title>
+  <link rel="stylesheet" href="../styles/sea-tour.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -11,9 +11,11 @@
 <div class="tour-container">
   <!-- Left side: Image Slider -->
   <div class="tour-slider">
-    <img src="../media/yacht.jpeg" alt="Yacht 1" class="slide active">
-    <img src="../media/yacht2.jpeg" alt="Yacht 2" class="slide">
-    <img src="../media/yacht3.jpeg" alt="Yacht 3" class="slide">
+    <img src="../media/boat_bg.jpeg" alt="janmor 1" class="slide active">
+    <img src="../media/boat.jpeg" alt="janmor 2" class="slide">
+    <img src="../media/janmor2.jpg" alt="janmor 3" class="slide">
+    <img src="../media/janmor3.jpg" alt="janmor 3" class="slide">
+    <img src="../media/janmor4.jpg" alt="janmor 3" class="slide">
     <div class="slider-nav">
       <button onclick="changeSlide(-1)">&#10094;</button>
       <button onclick="changeSlide(1)">&#10095;</button>
@@ -26,22 +28,22 @@
     <div class="back-button">
       <a href="../sea-tours.html">&larr; Back to Sea Tours</a>
     </div>
-    <h1>Luxury Yacht Tour</h1>
-    <p class="subtitle">Experience the Adriatic on a private luxury yacht.</p>
+    <h1>Janmor 580</h1>
+    <p class="subtitle">Experience the Adriatic sea with Janmor 580</p>
 
     <ul class="specs">
-      <li><strong>Max Guests:</strong> 12</li>
+      <li><strong>Max Guests:</strong> 5</li>
       <li><strong>Duration:</strong> 4/6/8 hours</li>
-      <li><strong>Includes:</strong> Captain, drinks, snacks, fuel</li>
+      <li><strong>Includes:</strong> Captain, drinks, snorkeling equipment, fuel, Pick up/Drop off</li>
       <br>
-      <li><strong>Price:</strong> From 950€</li>
+      <li><strong>Price:</strong> From 350€</li>
     </ul>
 
     <p class="description">
-      Enjoy an unforgettable day cruising the beautiful coast of Dubrovnik, with stops for swimming and relaxing at hidden coves.
+    Discover the charm of the Adriatic aboard the Janmor 580 – a compact and comfortable boat, ideal for families and small groups. Cruise the crystal-clear waters around Dubrovnik, stop at hidden coves, and enjoy a relaxing day at sea at your own pace.
     </p>
 
-    <a href="../index.html#booking" class="cta-btn">Book Now</a>
+    <a href="../index.php#booking" class="cta-btn">Book Now</a>
 
     <!-- Reviews Section -->
     <?php
