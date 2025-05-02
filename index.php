@@ -197,7 +197,7 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
     <img src="media/jetski12.jpeg" alt="Jet Ski">
     <div>
       <span><i class="fa-solid fa-water"></i> Jet Ski – 2 guests</span>
-      <a href="tours/jetski.php" class="learn-more">Learn More</a>
+      <a href="/tours/jetski.php" class="learn-more">Learn More</a>
     </div>
   </li>
 </ul>
