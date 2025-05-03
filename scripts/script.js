@@ -11,6 +11,21 @@ setInterval(() => {
     landingPage.style.backgroundImage = `url('${images[current]}')`;
 }, 5000);
 
+//hamburger
+const navToggle = document.getElementById('navToggle');
+const navMenu = document.getElementById('navMenu');
+
+navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+});
+
+// auto close on link click
+document.querySelectorAll('#navMenu a').forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+    });
+});
+
 //da dobijemo dodatno polje za yacht i gliser
 const vehicleSelect = document.getElementById('vehicle');
     const durationGroup = document.getElementById('duration-group');
@@ -56,18 +71,7 @@ window.addEventListener('click', function (e) {
   }
 });
 
-
-
-
-
 //ANIMACIJE ZA TEKSTOVE
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector(".booking-form");
 
@@ -86,13 +90,6 @@ document.addEventListener("DOMContentLoaded", function () {
   if (form) observer.observe(form);
 });
 
-
-
-
-
-
-
-  
   document.addEventListener("DOMContentLoaded", function () {
     const bookingInfo = document.querySelector(".booking-info");
 
@@ -116,11 +113,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
-
-
-
- 
-
   document.addEventListener("DOMContentLoaded", function () {
     const cards = document.querySelectorAll(".tour-card");
 
@@ -140,12 +132,6 @@ document.addEventListener("DOMContentLoaded", function () {
     cards.forEach(card => observer.observe(card));
   });
 
-
-
-
-
-
- 
   document.addEventListener("DOMContentLoaded", function () {
     const fleetItems = document.querySelectorAll(".fleet-block li");
 

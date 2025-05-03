@@ -11,15 +11,25 @@
 </head>
 
 <body>
+
 <nav class="navbar">
     <img class="logo" src="media/logo.png" alt="Global Guide Logo">
-    <ul class="nav-el">
+
+    <!-- Hamburger ikonica -->
+    <div class="hamburger" id="navToggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigacija -->
+    <ul class="nav-el" id="navMenu">
         <li><a href="index.php">Home</a></li>
         <li><a href="explore.html">Explore</a></li>
         <li><a href="restaurant.html">Restaurant</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
+
+
 
     <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/385914312672" class="whatsapp-float" target="_blank">

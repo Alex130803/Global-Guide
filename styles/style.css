@@ -45,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0a2239; /* tamna morska */
+    background-color: #0a2239;
     padding: 10px 0px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -54,13 +54,18 @@ body {
     width: 100%;
 }
 
+.logo {
+    width: 140px;
+    margin-left: 20px;
+}
+
 .nav-el {
     display: flex;
     gap: 30px;
     padding-right: 34px;
 }
 
-.nav-el li{
+.nav-el li {
     list-style: none;
 }
 
@@ -73,11 +78,15 @@ body {
 }
 
 .nav-el li a:hover {
-    color: #00b2a9; /* morski highlight */
+    color: #00b2a9;
 }
 
-.logo {
-    width: 140px;
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+    padding-right: 20px;
 }
 
 
@@ -814,6 +823,10 @@ ul li div .learn-more{
 
 
   @media (max-width: 768px) {
+    body{
+        padding-top: 0;
+    }
+
     .booking-wrapper {
         display: flex;
         flex-direction: column;
@@ -830,7 +843,36 @@ ul li div .learn-more{
         margin-left: 27%;
     }
 
+    .fleet-block li{
+        flex-direction: column;
     }
+
+    .nav-el {
+        display: none;
+        flex-direction: column;
+        background-color: #0a2239;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+    }
+
+    .nav-el.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    
+      .navbar {
+        position: relative;
+      }
+
+}
 
 
   
