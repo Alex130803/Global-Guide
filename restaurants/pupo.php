@@ -43,8 +43,10 @@
     Konoba Pupo is a family-run tavern located in the heart of Dubrovnik's Old Town, known for its traditional Dalmatian recipes and fresh, local ingredients. Since the 1990s, the family behind Pupo has blended old fishing recipes with quality produce sourced from the Dubrovnik region.
     </p>
 
-    <a href="../index.php#booking" class="cta-btn">Book Now</a>
-    <a href="../index.php#booking" class="cta-btn">Menu</a>
+    <div class="button-gap">
+      <a href="../index.php#booking" class="cta-btn">Book Now</a>
+      <a href="../index.php#booking" class="cta-btn">Menu</a>
+    </div>
 
     <!-- Reviews Section -->
     <?php

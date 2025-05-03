@@ -146,7 +146,7 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
   <li class="from-left">
     <img src="media/audi.jpg" alt="Audi Q3">
     <div>
-      <span><i class="fa-solid fa-car"></i> Audi Q3 – 5 seats</span>
+      <span><i class="fa-solid fa-car"></i> Audi Q3 – 4 seats</span>
       <a href="land-tours.html" class="learn-more">Learn More</a>
     </div>
   </li>

@@ -117,9 +117,6 @@ body {
 }
   
 /*--------------------REVIEWS-------------------------*/
-.reviews-section {
-  margin-top: 40px;
-}
 
 .reviews-section h2 {
   font-size: 2rem;
@@ -151,20 +148,9 @@ body {
   display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button-gap{
+  gap: 20px;
+}
 
 @media (max-width: 425px) {
     

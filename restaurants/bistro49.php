@@ -41,9 +41,11 @@
     <p class="description">
     Bistro 49 is known for its delicious food, generous portions, and friendly staff, making it a popular choice among both locals and tourists.
     </p>
-
-    <a href="../index.php#booking" class="cta-btn">Book Now</a>
-    <a href="../index.php#booking" class="cta-btn">Menu</a>
+    
+    <div class="button-gap">
+      <a href="../index.php#booking" class="cta-btn">Book Now</a>
+      <a href="../index.php#booking" class="cta-btn">Menu</a>
+    </div>
 
     <!-- Reviews Section -->
     <?php

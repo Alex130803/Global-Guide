@@ -41,14 +41,14 @@
 
     <p class="description">
     Features a charming rooftop terrace with a retractable roof, providing an al fresco dining experience under the stars.
-
-Praised for its exceptional service and attention to detail, with the chef often personally engaging with guests.
-
-Recognized in the MICHELIN Guide for its quality cuisine and inviting atmosphere.
+    Praised for its exceptional service and attention to detail, with the chef often personally engaging with guests.
+    Recognized in the MICHELIN Guide for its quality cuisine and inviting atmosphere.
     </p>
 
-    <a href="../index.php#booking" class="cta-btn">Book Now</a>
-    <a href="../index.php#booking" class="cta-btn">Menu</a>
+    <div class="button-gap">
+      <a href="../index.php#booking" class="cta-btn">Book Now</a>
+      <a href="../index.php#booking" class="cta-btn">Menu</a>
+    </div>
 
     <!-- Reviews Section -->
     <?php
