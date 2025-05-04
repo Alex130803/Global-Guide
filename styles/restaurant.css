@@ -94,8 +94,7 @@ body, html {
     
 
     .explore-split {
-        display: flex
-    ;
+        display: flex;
         height: 100vh;
         width: 100%;
         flex-direction: column;

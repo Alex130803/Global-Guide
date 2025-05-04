@@ -1,23 +1,5 @@
 [
     {
-        "title": "Test",
-        "description": "TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest",
-        "category": "sea",
-        "price": "120",
-        "discount": "15",
-        "image": "media\/jeep prljav.jpg",
-        "created_at": "2025-04-14 12:14:21"
-    },
-    {
-        "title": "Mostar",
-        "description": "Explore mostar old town...",
-        "category": "land",
-        "price": "125",
-        "discount": "10",
-        "image": "media\/8009722-mostar-bosnia-and-herzegovina.jpg",
-        "created_at": "2025-04-14 12:20:33"
-    },
-    {
         "title": "Split",
         "description": "Explore old town and more...",
         "category": "land",
