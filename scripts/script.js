@@ -151,3 +151,36 @@ document.addEventListener("DOMContentLoaded", function () {
     fleetItems.forEach(item => observer.observe(item));
   });
 
+
+
+
+
+
+
+
+
+//Menu pop-up
+
+
+
+
+
+const openBtn = document.getElementById("openPdfBtn");
+const closeBtn = document.getElementById("closePdfBtn");
+const popup = document.getElementById("pdfPopup");
+
+openBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  popup.style.display = "flex";
+});
+
+closeBtn.addEventListener("click", () => {
+  popup.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === popup) {
+    popup.style.display = "none";
+  }
+});
+

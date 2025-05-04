@@ -125,7 +125,7 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
 <link rel="stylesheet" href="tours-section.css">
 
 <section id="tours">
-    <h2>Our Tours</h2>
+    <h2>Our Special Offers</h2>
     <div class="tour-list">
         <?php foreach ($tours as $t): ?>
             <div class="tour-card">
