@@ -42,7 +42,7 @@
 <section class="landing-page" id="landing-page">
     <div class="landing-page-content">
         <h1 class="landing-page-title">Welcome to Global Guide</h1>
-        <p class="landing-page-subtitle">Yacht, Car, and Kayak rentals in Dubrovnik</p>
+        <p class="landing-page-subtitle">From sea to street — discover Dubrovnik your way, at the best value</p>
         <a href="explore.html" class="cta-btn">Explore Now</a>
     </div>
 </section>
@@ -157,21 +157,21 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
     <img src="media/audi.jpg" alt="Audi Q3">
     <div>
       <span><i class="fa-solid fa-car"></i> Audi Q3 – 4 seats</span>
-      <a href="land-tours.html" class="learn-more">Learn More</a>
+      <a href="land-tours.html" class="cta-btn-new">Learn More</a>
     </div>
   </li>
   <li class="from-right">
     <img src="media/mercedesVclass.jpg" alt="V-Class">
     <div>
       <span><i class="fa-solid fa-car-side"></i> Mercedes V-Class – 7 seats</span>
-      <a href="land-tours.html" class="learn-more">Learn More</a>
+      <a href="land-tours.html" class="cta-btn-new">Learn More</a>
     </div>
   </li>
   <li class="from-left">
     <img src="media/quad.jpg" alt="Quad">
     <div>
       <span><i class="fa-solid fa-motorcycle"></i> Quad 4x4 – 2 seats</span>
-      <a href="land-tours.html" class="learn-more">Learn More</a>
+      <a href="land-tours.html" class="cta-btn-new">Learn More</a>
     </div>
   </li>
 </ul>
@@ -186,28 +186,28 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
     <img src="media/yacht.jpeg" alt="Yacht">
     <div>
       <span><i class="fa-solid fa-ship"></i> Luxury Yacht – 12 guests</span>
-      <a href="tours/yacht.php" class="learn-more">Learn More</a>
+      <a href="tours/yacht.php" class="cta-btn-new">Learn More</a>
     </div>
   </li>
   <li class="from-right">
     <img src="media/boat2.jpeg" alt="Speedboat">
     <div>
-      <span><i class="fa-solid fa-water"></i> Speedboat – 5/12 guests</span>
-      <a href="speedboat.html" class="learn-more">Learn More</a>
+      <span><i class="fa-solid fa-water"></i> Speedboats – 5/12 guests</span>
+      <a href="speedboat.html" class="cta-btn-new">Learn More</a>
     </div>
   </li>
   <li class="from-left">
     <img src="media/kayak2.jpeg" alt="Kayak">
     <div>
       <span><i class="fa-solid fa-person-swimming"></i> Kayaks – 1–2 guests</span>
-      <a href="tours/kayak.php" class="learn-more">Learn More</a>
+      <a href="tours/kayak.php" class="cta-btn-new">Learn More</a>
     </div>
   </li>
   <li class="from-right">
     <img src="media/jetski12.jpeg" alt="Jet Ski">
     <div>
       <span><i class="fa-solid fa-water"></i> Jet Ski – 2 guests</span>
-      <a href="/tours/jetski.php" class="learn-more">Learn More</a>
+      <a href="/tours/jetski.php" class="cta-btn-new">Learn More</a>
     </div>
   </li>
 </ul>
@@ -249,7 +249,8 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
                 <img src="media/gosti1.jpeg" alt="Guest 5">
             </div>
         </div>
-        <a href="#book" class="learn-more">Book Now</a>
+        <a href="https://g.page/r/CREMSGvS1mTdEBM/review" class="cta-btn" target="_blank" rel="noopener noreferrer">Leave us a feedback on Google!</a>
+
     </div>
 </section>
 

@@ -47,7 +47,7 @@
     </p>
 
     <div class="button-gap">
-      <a href="../index.php#booking" class="cta-btn">Book Now</a>
+      <a href="../index.php#book" class="cta-btn">Book Now</a>
       <a href="../index.php#booking" class="cta-btn">Menu</a>
     </div>
 

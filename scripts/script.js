@@ -184,3 +184,47 @@ window.addEventListener("click", (e) => {
   }
 });
 
+
+
+
+
+const openGalleryBtn = document.getElementById("openGalleryBtn");
+  const galleryPopup = document.getElementById("galleryPopup");
+  const closeGallery = document.querySelector(".close-gallery");
+  const slides = document.querySelectorAll(".slide");
+  const nextBtn = document.getElementById("nextSlide");
+  const prevBtn = document.getElementById("prevSlide");
+
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("active", i === index);
+    });
+  }
+
+  openGalleryBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    galleryPopup.style.display = "flex";
+    showSlide(currentSlide);
+  });
+
+  closeGallery.addEventListener("click", () => {
+    galleryPopup.style.display = "none";
+  });
+
+  nextBtn.addEventListener("click", () => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  });
+
+  prevBtn.addEventListener("click", () => {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target === galleryPopup) {
+      galleryPopup.style.display = "none";
+    }
+  });

@@ -45,8 +45,24 @@
     </p>
 
     <div class="button-gap">
-      <a href="../index.php#booking" class="cta-btn">Book Now</a>
-      <a href="../index.php#booking" class="cta-btn">Menu</a>
+      <a href="../index.php#book" class="cta-btn">Book Now</a>
+      <a href="#" class="menu-info" id="openGalleryBtn">Menu</a>
+
+<div id="galleryPopup" class="modal">
+  <div class="modal-content">
+    <span class="close-gallery">&times;</span>
+    <div class="slider">
+      <img class="slide" src="img1.jpg" alt="Slika 1">
+      <img class="slide" src="img2.jpg" alt="Slika 2">
+      <img class="slide" src="img3.jpg" alt="Slika 3">
+    </div>
+    <div class="slider-buttons">
+      <button id="prevSlide">❮</button>
+      <button id="nextSlide">❯</button>
+    </div>
+  </div>
+</div>
+
     </div>
 
     <!-- Reviews Section -->
@@ -82,6 +98,10 @@
   function changeSlide(dir) {
     showSlide(current + dir);
   }
+
+
+
+
 </script>
 
 </body>
