@@ -179,7 +179,7 @@ $tours = file_exists('tours.json') ? json_decode(file_get_contents('tours.json')
     </div>
 
     <!-- Sea Fleet -->
-    <div class="fleet-block">
+<div class="fleet-block">
       <h3>Sea Fleet</h3>
       <ul>
   <li class="from-left">

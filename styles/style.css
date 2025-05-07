@@ -507,6 +507,7 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+
 .fleet-block li {
   opacity: 0;
   transform: translateX(0);
